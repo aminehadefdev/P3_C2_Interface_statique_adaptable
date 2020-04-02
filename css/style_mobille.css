@@ -1,106 +1,68 @@
-                        /*----------start HEADER----------*/
+/*_________________________header______________________*/
 header{
-    width: 100%;
     height: 70vh;
 
     background-image: url('../assets/mastehead.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
-}
-/*__start logo__*/
-.container-logo{
-    color: white;
+
     font-family: 'Open Sans', sans-serif;
+    color: white;
     display: flex;
-    margin-left: 12px;
-    margin-top: 12px;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.container-logo img{
-    width: 33px;
-    height: 33px;
+
+.container-logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
-.container-logo h1{
-    margin-left: 5px;
-    font-size: 25px;
+
+.image-logo{
+    width: 30px;
+    height: 30px;
+}
+
+.text-logo{
+    font-size: 25px;/*ICI*/
     font-style: italic;
 }
-/*__end logo__*/
-/*__start title__*/
-.container-title{
+
+.container-title-web-site{
     position: relative;
-    top: 49%;
-    color: white;
-    width: 90%;
-    margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
+    bottom: 100px;
+    width: 170px;
+    margin: 0px 0px 0px 50px;/*ICI*/
 }
-.container-title h2{
-    font-size: 3em;
-    width: 0;
-}
-.container-title p{
-    width: 240px;
-    font-size: .9em;
-    font-weight: bold;
-}
-/*__end title__*/
-                        /*----------end HEADER------------*/
 
-                        /*----------start MAIN----------*/
-/*__start start something new__*/
+.container-title-web-site h2{
+    font-size: 1.5em;/*ICI*/
+}
+
+.container-title-web-site p{
+    font-size: .8em;/*ICI*/
+}
+/*_________________________main______________________*/
+
 main{
-    margin-top: 32px;
-}
-
-.container-start-something-new{
-    width: 80%;
-    margin: 32px auto;
-    font-family: 'Roboto', sans-serif;
-}
-.container-start-something-new h2{
-    font-weight: normal;
-}
-.container-start-something-new p{
-    margin-top: 20px;
-    color: #9f9f9f;
-    font-size: .9em;
-}
-/*__end start something new__*/
-
-/*__start cards__*/
-.container-cards{
-    width: 80%;
-    margin: 0 auto;
-    color: white;
-    margin-top: 90px;
-}
-.card-item{
-    width: 100%;
-    height: 17vh;
-}
-.container-card-elements{
-    width: 80%;
-    margin: 0 auto;
-    height: 100%;
+    font-family: 'Open Sans', sans-serif;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
 }
 
-.card-item h3{
-    padding: 23px 0 0 0;
+.super-container-item-1{}
+.super-container-item-1 p{
+    color: #9f9f9f;
+    font-size: .9em; /*ICI*/
 }
-.card-item p{
-    font-size: 0.7em;
+.item-2{
+    row-gap: 0;
 }
-.card-item a{
-    color: white;
-    text-decoration: none;
-    font-size: 0.8em;
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+.container-item-2{
+
 }
 #design{
     background-color: #f4979f;
@@ -117,7 +79,7 @@ main{
 }
 #sign{
     background-image: url("../assets/box-bg-lg.jpg");
-        background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -125,70 +87,22 @@ main{
 #perfect{
     background-color: #84c99d;
 }
-/*__end cards__*/
-/*__start a look at the details__*/
-.container-look-details{
-    margin-top: 90px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.9em;
 
-}
-.container-look-details h2{
-    font-weight: normal;
-    margin: 0px 0px 60px 0;
-}
-.container-details h4{
-    margin: 30px 0 30px 0;
-    margin-top: 20px;
-    color: #9f9f9f;
-    font-size: .7em;
-}
-.container-details p{
-    margin-top: 20px;
-    color: #9f9f9f;
-    font-size: .8em;
-}
-/*__end a look at the details__*/
-/*__start more powe__*/
-.container-more-power{
-    width: 100%;
-    height: 70vh;
-    background-image: url('../assets/full-image.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+#design,#built,#our,#sign,#perfect{
     color: white;
-    font-family: 'Roboto' ,sans-serif;
-    margin-top: 90px;
 }
-.container-more{
-    position: relative;
-    top: 16%;
-    color: white;
-    width: 90%;
-    margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
-}
-.container-more h2{
-    font-size: 3em;
-    width: 300px;
-}
-.container-more p{
-    width: 95%;
-    font-size: .9em;
-    font-weight: bold;
-}
-.container-more a{
-    text-decoration: none;
-    color: white;
-    width: 95%;
-    font-size: .9em;
-    font-weight: bold;
-    position: relative;
-    top: 20px;
-}
-/*__end more powe__*/
 
-                        /*----------end MAIN----------*/
+
+.container-item-3{
+    row-gap: 4em;
+}
+.container-item-3-items{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    color: #9f9f9f;
+    font-size: .9em; /*ICI*/
+}
+.container-item-3-items h4{
+    font-weight: normal;/*ICI*/
+}
