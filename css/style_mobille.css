@@ -36,14 +36,11 @@ header{
 }
 
 .container-title-web-site{
-    position: relative;
-    bottom: 100px;
     width: 170px;
-    margin: 0px 0px 0px 50px;/*ICI*/
 }
 
 .container-title-web-site h2{
-    font-size: 1.5em;/*ICI*/
+    font-size: 2.5em;/*ICI*/
 }
 
 .container-title-web-site p{
@@ -192,4 +189,66 @@ main{
     font-size: 0.8em;
     height: 3em;
     width: 9em; 
+}
+
+/*_________________________footer______________________*/
+footer{
+    background-color: #182432;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.container-footer{
+    row-gap: 2em;
+}
+.container-item-1-footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5em;
+    font-size: 0.8em;
+}
+.container-item-1-footer h4{
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.container-item-2-footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    font-size: 0.8em; 
+}
+
+.container-input-footer{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0em;
+}
+.container-input-footer input{
+    width: 100%;
+    border: white;
+}
+
+.container-input-footer button{
+    border: none;
+    height: 35px;
+    width: 35px;
+    background-color: #84c99d;
+    color: white;
+}
+.container-item-2-footer p{
+    font-size: 0.7em;
+}
+
+.container-item-3-footer{
+    display: flex;
+    column-gap: 1em;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.container-item-3-footer-items ul{
+    list-style: none;
+}
+.container-item-3-footer-items ul li{
+    font-size: .8em;
 }

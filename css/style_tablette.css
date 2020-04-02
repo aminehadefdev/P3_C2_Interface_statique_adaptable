@@ -1,0 +1,42 @@
+@media only screen and (min-width: 600px){
+    .item-2{
+        flex-direction: row;
+    }
+    .container-item-2{
+        width: 50%;
+    }
+    #perfect{
+        width: 100%;
+    }
+
+
+    .container-item-3{
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 2em;
+        justify-content: center;
+    }
+    .title-article{
+        width: 100%;
+    }
+    .container-item-3-items{
+        width: 47%;
+    }
+
+
+    .container-item-4-items{
+        width: 29%;
+    }
+
+    .container-item-5{
+        flex-direction: row;
+    }
+    .container-item-5-items{
+        width: 50%;
+    }
+
+    .container-item-3-footer{
+        column-gap: 7em;
+        justify-content: start;
+    }
+}
