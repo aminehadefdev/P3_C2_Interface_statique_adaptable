@@ -226,6 +226,9 @@ footer{
 .container-input-footer input{
     width: 100%;
     border: white;
+
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 .container-input-footer button{

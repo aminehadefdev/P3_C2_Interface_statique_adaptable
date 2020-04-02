@@ -39,4 +39,17 @@
         column-gap: 7em;
         justify-content: start;
     }
+    .title-more{
+        font-size: 4em;
+        width: 61%;
+    }
+    #more div p{
+        width: 61%;
+    }
+    #more div a{
+        font-weight: bold;
+    }
+    .container-item-5-items h3{
+        font-size: 1.8em;
+    }
 }
