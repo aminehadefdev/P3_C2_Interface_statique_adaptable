@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 2em;
+    overflow-x: hidden;
 }
 .super-container{
     width: 100%;

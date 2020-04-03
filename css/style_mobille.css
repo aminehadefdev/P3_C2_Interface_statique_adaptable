@@ -57,6 +57,9 @@ main{
     color: #9f9f9f;
     font-size: .9em; /*ICI*/
 }
+#iphone{
+    display: none;
+}
 .item-2{
     row-gap: 0;
 }
@@ -125,7 +128,9 @@ main{
     color: white;
 }
 
-
+.container-offre{
+    background-color: azure;
+}
 .container-item-5{
     row-gap: 5em;
     color:#9f9f9f ;
@@ -226,7 +231,6 @@ footer{
 .container-input-footer input{
     width: 100%;
     border: white;
-
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }

@@ -8,8 +8,6 @@
     #perfect{
         width: 100%;
     }
-
-
     .container-item-3{
         flex-direction: row;
         flex-wrap: wrap;
@@ -22,8 +20,6 @@
     .container-item-3-items{
         width: 47%;
     }
-
-
     .container-item-4-items{
         width: 29%;
     }
