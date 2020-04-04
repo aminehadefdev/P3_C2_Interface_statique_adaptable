@@ -48,17 +48,23 @@
     .container-item-3 {
         justify-content: start;
     }
+    
     .container-item-3-items {
         width: 20%;
     }
-
+    
     .title-more {
         width: 46%;
+    }
+
+    .container-item-4-items{
+        width: 30.33%;
     }
 
     .container-item-5 {
         justify-content: space-between;
     }
+    
     .container-item-5-items {
         width: 45%;
     }
@@ -67,15 +73,19 @@
         box-shadow: 3px 3px 10px gray;
         border-radius: 8px;
     }
+    
     .container-item-5-items button{
         margin-top: 40px;
     }
 
-    .container-item-5-items button,h3,p,div{
+    .btn,.h3o,.po,.io{
         margin-left: 30px;
     }
-    .container-item-5-items div{
+    .io{
         margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 1.5em;
     }
 
 
@@ -93,6 +103,15 @@
     }
     .container-input-footer{
         margin: 0;
+    }
+
+
+    #more{
+        height: 80vh;
+    }
+
+    #reasons{
+        height: 50vh;
     }
 }
 

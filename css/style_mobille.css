@@ -233,6 +233,7 @@ footer{
     border: white;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
+    font-size: 2em;
 }
 
 .container-input-footer button{
