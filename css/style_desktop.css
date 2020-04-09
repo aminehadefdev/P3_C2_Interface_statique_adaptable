@@ -14,7 +14,6 @@
     .container-title-web-site p {
         width: 404px;
     }
-
     #iphone{
         display: block;
         width: 400px;
@@ -22,7 +21,6 @@
         right: 180px;
         top: 644px;
     }
-
     .super-container-item-1{
         flex-direction: row;
     }
@@ -34,7 +32,6 @@
         top: 100px;
         left: 65px;
     }
-
     .container-item-2 {
         width: 33.33%;
     }
@@ -44,31 +41,24 @@
     #perfect{
         width: 33.33%;
     }
-
     .container-item-3 {
         justify-content: start;
     }
-    
     .container-item-3-items {
         width: 20%;
     }
-    
     .title-more {
         width: 46%;
     }
-
     .container-item-4-items{
         width: 30.33%;
     }
-
     .container-item-5 {
         justify-content: space-between;
     }
-    
     .container-item-5-items {
         width: 45%;
     }
-
     .container-item-5-items:hover{
         box-shadow: 3px 3px 10px gray;
         border-radius: 8px;
@@ -87,8 +77,6 @@
         flex-direction: row;
         column-gap: 1.5em;
     }
-
-
     .container-footer{
         flex-direction: row;
     }
@@ -104,17 +92,13 @@
     .container-input-footer{
         margin: 0;
     }
-
-
     #more{
         height: 80vh;
     }
-
     #reasons{
         height: 50vh;
     }
 }
-
 @media only screen and (min-width: 1760px){
     #iphone{
         display: block;

@@ -7,6 +7,8 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     overflow-x: hidden;
+
+    background-color: white;
 }
 .super-container{
     width: 100%;
@@ -26,4 +28,8 @@ body{
 a{
     text-decoration: none;
     color: white;
+}
+
+button:hover{
+    cursor: pointer;
 }

@@ -23,14 +23,12 @@
     .container-item-4-items{
         width: 29%;
     }
-
     .container-item-5{
         flex-direction: row;
     }
     .container-item-5-items{
         width: 50%;
     }
-
     .container-item-3-footer{
         column-gap: 7em;
         justify-content: start;
@@ -38,6 +36,9 @@
     .title-more{
         font-size: 4em;
         width: 61%;
+    }
+    .container-input-footer input{
+        width: 100%;
     }
     #more div p{
         width: 61%;
